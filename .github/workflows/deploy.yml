@@ -19,8 +19,10 @@ jobs:
             docs
             
       - name: list dir
-        run: ls -lah
-
+        run: |
+          ls -lah
+          cd docs
+          
       - uses: actions/setup-node@v3
         with:
           node-version: 18
