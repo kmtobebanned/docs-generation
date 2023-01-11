@@ -25,7 +25,7 @@ jobs:
         run: |
           tar -xvf doxygen-1.9.5
           cd doxygen-1.9.5
-          make install
+          sudo make install
 
       - name: Check Doxygen Version
         run: doxygen -v
