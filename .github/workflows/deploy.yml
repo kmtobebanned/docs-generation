@@ -16,7 +16,7 @@ jobs:
         uses: snow-actions/sparse-checkout@v1.2.0
         with:
           patterns: |
-            .docs
+            docs
 
 
       - uses: actions/setup-node@v3
